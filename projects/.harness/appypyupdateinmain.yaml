@@ -1,0 +1,14 @@
+inputSet:
+  identifier: "appypyupdateinmain"
+  name: "appy-py-update-in-main"
+  orgIdentifier: "dbothwell"
+  projectIdentifier: "dbothwellgitexpsandbox"
+  pipeline:
+    identifier: "alphaCodebaseGitExperience"
+    properties:
+      ci:
+        codebase:
+          build:
+            type: "branch"
+            spec:
+              branch: "main"
