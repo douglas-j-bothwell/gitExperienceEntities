@@ -1,0 +1,23 @@
+connector:
+  name: douglas-j-bothwell-github
+  identifier: douglasjbothwellgithub
+  description:
+  orgIdentifier: dbothwell
+  projectIdentifier: dbothwellgitexpsandbox
+  type: Github
+  spec:
+    url: https://github.com/douglas-j-bothwell
+    validationRepo: codebaseAlphaGitExp
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: douglas-j-bothwell
+          tokenRef: mygithubpersonalaccesstoken
+    apiAccess:
+      type: Token
+      spec:
+        tokenRef: mygithubpersonalaccesstoken
+    executeOnDelegate: true
+    type: Account
