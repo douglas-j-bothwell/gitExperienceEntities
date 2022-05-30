@@ -1,0 +1,16 @@
+connector:
+  name: dbothwell-docker
+  identifier: dbothwelldocker
+  description:
+  orgIdentifier: dbothwell
+  projectIdentifier: dbothwellgitexpsandbox
+  type: DockerRegistry
+  spec:
+    dockerRegistryUrl: https://index.docker.io/v2/
+    providerType: DockerHub
+    auth:
+      type: UsernamePassword
+      spec:
+        username: dbothwell
+        usernameRef: null
+        passwordRef: mydockerhubpat
