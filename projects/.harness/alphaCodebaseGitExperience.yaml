@@ -35,7 +35,7 @@ pipeline:
                                     connectorRef: dbothwelldocker
                                     repo: dbothwell/myalphaservice
                                     tags:
-                                        - ge_atest
+                                        - ge_latest
                                         - <+trigger.sourceBranch>
                           - step:
                                 type: Run
